@@ -1,0 +1,17 @@
+{
+  "name": "togglequotes",
+  "version": "1.0.0",
+  "description": "Changes single quotes to double and vice versa.",
+  "main": "main.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "quotes"
+  ],
+  "author": "Nachiket Karve",
+  "license": "MIT",
+  "dependencies": {
+    "esprima": "^2.4.1"
+  }
+}

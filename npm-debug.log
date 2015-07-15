@@ -1,0 +1,85 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'eshint' ]
+2 info using npm@1.4.23
+3 info using node@v0.10.31
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'eshint', null ]
+6 verbose cache add name=undefined spec="eshint" args=["eshint",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'eshint',
+7 verbose parsed url   path: 'eshint',
+7 verbose parsed url   href: 'eshint' }
+8 silly lockFile 204c1135-eshint eshint
+9 verbose lock eshint C:\Users\nachiket\AppData\Roaming\npm-cache\204c1135-eshint.lock
+10 silly lockFile 204c1135-eshint eshint
+11 silly lockFile 204c1135-eshint eshint
+12 verbose addNamed [ 'eshint', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 5ac12e7a-eshint eshint@
+15 verbose lock eshint@ C:\Users\nachiket\AppData\Roaming\npm-cache\5ac12e7a-eshint.lock
+16 silly addNameRange { name: 'eshint', range: '*', hasData: false }
+17 verbose request where is /eshint
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id fef59956d347ec5a
+20 verbose url raw /eshint
+21 verbose url resolving [ 'https://registry.npmjs.org/', './eshint' ]
+22 verbose url resolved https://registry.npmjs.org/eshint
+23 verbose request where is https://registry.npmjs.org/eshint
+24 info trying registry request attempt 1 at 20:47:51
+25 http GET https://registry.npmjs.org/eshint
+26 http 404 https://registry.npmjs.org/eshint
+27 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '51',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   date: 'Wed, 15 Jul 2015 03:47:55 GMT',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   connection: 'keep-alive',
+27 verbose headers   'x-served-by': 'cache-ord1729-ORD',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1436932075.335443,VS0,VE40' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '51',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     date: 'Wed, 15 Jul 2015 03:47:55 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-ord1729-ORD',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1436932075.335443,VS0,VE40' } ]
+29 silly lockFile 5ac12e7a-eshint eshint@
+30 silly lockFile 5ac12e7a-eshint eshint@
+31 error 404 404 Not Found: eshint
+31 error 404
+31 error 404 'eshint' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Windows_NT 6.2.9200
+33 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "eshint"
+34 error cwd I:\nac\togglequotes
+35 error node -v v0.10.31
+36 error npm -v 1.4.23
+37 error code E404
+38 verbose exit [ 1, true ]
