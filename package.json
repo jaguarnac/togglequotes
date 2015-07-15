@@ -11,7 +11,5 @@
   ],
   "author": "Nachiket Karve",
   "license": "MIT",
-  "dependencies": {
-    "esprima": "^2.4.1"
-  }
+  "dependencies": {}
 }
