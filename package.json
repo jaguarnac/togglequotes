@@ -11,5 +11,14 @@
   ],
   "author": "Nachiket Karve",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaguarnac/togglequotes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jaguarnac/togglequotes/issues"
+  },
+  "homepage": "https://github.com/jaguarnac/togglequotes"
 }
